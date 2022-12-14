@@ -1,0 +1,31 @@
+
+
+/* REGOLE GENERALI PER IL SITO -------------------------------------- */
+
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* short per colori */
+
+:root {
+    --primary-color: #f8f9fa;
+    --primary-color-dark: #f7f7f7;
+    --secondary-color: #1c71e8;
+    --secondary-color-dark: #061e34;
+    --primary-badge-color: #185bb9;
+}
+
+.ms-search-color {
+    background-color: #e5e5e5;
+}
+
+.ms-wrap-conteiner {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 70px;
+    background-color: var(--primary-color-dark);
+    display: flex;
+}
+/* ----------------------------------------------------------------------------------- */
