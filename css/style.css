@@ -17,7 +17,7 @@
     --primary-badge-color: #185bb9;
 }
 
-/* .ms-search-color {
+.ms-search-color {
     background-color: #e5e5e5;
 }
 
@@ -27,12 +27,11 @@
     padding-top: 70px;
     background-color: var(--primary-color-dark);
     display: flex;
-} */
+} 
 
 /* ----------------------------------------------------------------------------------- */
 /* style per l'HEADER----------------------------------------------------------------- */
 
-/* HEADER */
 
 header {
     height: 70px;
@@ -85,4 +84,105 @@ header img {
 
 .header-nav .fa-bell {
     color: #ff8f00;
+}
+
+/* STILE per L'ASIDE------------------------------- */
+
+/* ASIDE */
+
+aside {
+    background-color: var(--secondary-color-dark);
+    background-image: url(../img/sidebar-bg.png);
+    flex-shrink: 0;
+    width: auto;
+    padding: 20px;
+    padding-right: 1.875rem;
+}
+    
+aside ul {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex-grow: 1;
+    list-style: none;
+    padding-left: 0;
+}
+
+aside a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 10px;
+}
+
+aside li {
+    padding-top: .625rem;
+}
+
+aside li:last-child {
+    margin-top: auto;
+}
+
+aside i {
+    width: 25px;
+    text-align: center;
+}
+
+/* MAIN ---------------------------------------------------*/
+
+main {
+    background-color: var(--primary-color-dark);
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.ms-container {
+    background-color: var(--secondary-color);
+    padding-top: 20px;
+    color: white;
+}
+
+.ms-w-60 {
+    width: auto;
+}
+
+.ms-w-100 {
+    width: 6.25rem;
+}
+
+.ms-w-150 {
+    width: 7.375rem;
+}
+
+.ms-badge {
+    background-color: var(--primary-badge-color);
+}
+.ms-text-warning {
+    color: white!important;
+}
+
+.class-logo {
+    width: 25px;
+    margin-right: .625rem;
+}
+
+.table {
+    vertical-align: middle;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ms-btn-14 {
+    padding-left: 14px;
+    padding-right: 14px;
+    background-color: #f7f7f7;
+    color: #1c71e8;
+    border: 1px solid #1c71e8;
+}
+
+.ms-border-top {
+    border-top: none;
 }
