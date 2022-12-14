@@ -17,7 +17,7 @@
     --primary-badge-color: #185bb9;
 }
 
-.ms-search-color {
+/* .ms-search-color {
     background-color: #e5e5e5;
 }
 
@@ -27,5 +27,62 @@
     padding-top: 70px;
     background-color: var(--primary-color-dark);
     display: flex;
-}
+} */
+
 /* ----------------------------------------------------------------------------------- */
+/* style per l'HEADER----------------------------------------------------------------- */
+
+/* HEADER */
+
+header {
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--primary-color);
+    align-items: center;
+    padding: 0 10px;
+}
+
+header img {
+    max-height: 40px;
+}
+
+.fa-magnifying-glass {
+    position: relative;
+    font-size: 1.25rem;
+    top: 10px;
+    left: 35px;
+}
+
+.header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-search-bar {
+    flex-grow: 1;
+}
+
+
+.header-nav > ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-bottom: 0;
+    padding-right: .625rem;
+}
+
+.header-nav li {
+    margin-right: 1.25rem;
+}
+
+.header-nav a {
+    color: black;
+}
+
+.header-nav .fa-bell {
+    color: #ff8f00;
+}
